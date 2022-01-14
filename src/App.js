@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React,{useState} from 'react'
 import './App.css';
+import Header from './Header';
+import Footer from './Footer';
+import Input from './Input';
+import Output from './Output';
+
+
 
 function App() {
+
+  const[data,setData]=useState([])
+  function func(jason)
+  {
+    setData([...data,jason])
+  }
+  console.log(data)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className='App'>
+    <Header/>
+    <Input getData={func}/>
+    
+    <Output value={data}/>
+    
+    <Footer className='kbc'/>
+   </div>
   );
 }
 

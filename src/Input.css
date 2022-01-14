@@ -1,0 +1,45 @@
+.input{
+    text-align: center;
+    background-color: thistle;
+    padding: 10px;
+    margin-top: 5px;
+}
+h3{
+    padding: 10px;
+
+}
+.text{
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    border:solid yellow 2px;
+    border-radius: 20px;
+   
+
+}
+.customerInput{
+    padding: 40px;
+}
+
+label{
+    padding: 5px;
+}
+select{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.customerName{
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.addCustomer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    border:solid green 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
